@@ -13,5 +13,6 @@ class Dog
   def age
     2
   end
+  def age=(age)
 
 end
