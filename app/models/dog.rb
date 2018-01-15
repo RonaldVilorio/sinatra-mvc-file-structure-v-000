@@ -10,7 +10,7 @@ class Dog
   def self.all
     @@all << self
   end
-  def age=()
+  def age=(a)
     binding.pry
     self
   end
