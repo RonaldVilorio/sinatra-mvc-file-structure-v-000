@@ -6,7 +6,8 @@ class Dog
     @id = id
   end
   def self.all
+    @@all << self
   end
-  
+
 
 end
