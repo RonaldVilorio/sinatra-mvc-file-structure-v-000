@@ -12,10 +12,7 @@ class Dog
   def self.all
     @@all << self
   end
-  def age
-    2
-    binding.pry
-  end
+
 
 
 
