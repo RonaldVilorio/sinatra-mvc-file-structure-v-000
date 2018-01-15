@@ -10,14 +10,6 @@ class Dog
   def self.all
     @@all << self
   end
-  def age=(a)
-    a
-  end
-  def age
-    2
-  end
-
-
 
 
 end
