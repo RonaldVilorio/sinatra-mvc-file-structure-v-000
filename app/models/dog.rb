@@ -10,6 +10,7 @@ class Dog
   end
   def self.all
     @@all << self
+    partition { |e|  }
   end
 
 
