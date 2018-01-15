@@ -1,6 +1,7 @@
 class Dog
   @@all = []
   attr_accessor :name,:breed,:id
+  attr_writer :age
 
   def initialize(name,breed,id)
     @name = name
@@ -10,10 +11,7 @@ class Dog
   def self.all
     @@all << self
   end
-  def age=(a)
-    binding.pry
-    self
-  end
+
 
 
 
