@@ -12,6 +12,7 @@ class Dog
   end
   def age
     2
+    binding.pry
   end
 
 
