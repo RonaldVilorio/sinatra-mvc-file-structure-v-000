@@ -11,10 +11,8 @@ class Dog
     @@all << self
   end
   def age
+    
   end
-
-
-
 
 
 
