@@ -14,6 +14,7 @@ class Dog
     2
   end
   def age=(age)
+    self.age = age
   end
 
 end
