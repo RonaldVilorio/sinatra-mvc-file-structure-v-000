@@ -1,5 +1,5 @@
 class Dog
-  def initialize
+  def initialize(:name,:breed,:id)
   end
-  
+
 end
