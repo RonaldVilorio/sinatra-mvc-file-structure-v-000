@@ -10,7 +10,6 @@ class Dog
   end
   def self.all
     @@all << self
-    binding.pry
   end
 
 
