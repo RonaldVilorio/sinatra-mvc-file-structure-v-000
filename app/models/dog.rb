@@ -1,3 +1,3 @@
-class Dog(a,b,c)
+class Dog(a)
   binding.pry
 end
