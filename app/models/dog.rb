@@ -7,9 +7,9 @@ class Dog
     @breed = breed
     @id = id
   end
-  def self.all
+  def all
     @@all << self
-    binding.pry
+
   end
 
 end
